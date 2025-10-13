@@ -1,0 +1,13 @@
+{
+  "FETCH_INTERVAL_MINUTES": 20,
+  "OUTPUT_JSON": "data/threat_feed.json",
+  "MAX_POSTS": 50,
+  "SOURCES": {
+    "nvd": "https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-recent.json",
+    "reddit": "https://www.reddit.com/r/netsec/.rss",
+    "hackernews": "https://news.ycombinator.com/rss",
+    "threatpost": "https://threatpost.com/feed/",
+    "cve_trends": "https://cvetrends.com/api/cves/24hrs"
+  },
+  "USER_AGENT": "ThreatPulse/1.0 (Free Open Threat Feed)"
+}
