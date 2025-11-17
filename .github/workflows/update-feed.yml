@@ -2,17 +2,17 @@ name: Update Threat Feed
 
 on:
   schedule:
-    - cron: '*/20 * * * *'   # every 20 minutes
+    - cron: '*/20 * * * *'
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # THIS IS THE KEY LINE
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,19 +22,18 @@ jobs:
       - name: Install dependencies
         run: pip install aiohttp feedparser
 
-      - name: Run ONE cycle only (no infinite loop)
+      - name: Run ONE cycle only
         run: |
           python - <<'PY'
-          import asyncio, aiohttp
-          from src.threatpulse import run_cycle
+          import asyncio, aiohttp, sys, os
+          sys.path.insert(0, os.getcwd() + '/src')
+          from threatpulse import run_cycle
 
           async def main():
-              async with aiohttp.ClientSession(
-                  timeout=aiohttp.ClientTimeout(total=60),
-                  headers={"User-Agent": "ThreatPulse/1.0"}
-              ) as session:
+              timeout = aiohttp.ClientTimeout(total=120)
+              headers = {"User-Agent": "ThreatPulse/1.0"}
+              async with aiohttp.ClientSession(timeout=timeout, headers=headers) as session:
                   await run_cycle(session)
-
           asyncio.run(main())
           PY
 
@@ -44,8 +43,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/threat_feed.json
           if git diff --staged --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
           else
-            git commit -m "Auto-update feed $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Update feed $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
