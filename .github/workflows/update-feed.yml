@@ -9,7 +9,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # THIS IS THE KEY LINE
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,13 +37,19 @@ jobs:
           asyncio.run(main())
           PY
 
-      - name: Commit and push if changed
+      - name: Commit and push via SSH
+        env:
+          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Force SSH URL
+          git remote set-url origin git@github.com:komonaelliy/threatpulse.git
+          
           git add data/threat_feed.json
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
             git commit -m "Update feed $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
