@@ -16,6 +16,8 @@ import logging
 from datetime import datetime, timezone
 from typing import List, Dict, Optional, Set
 
+
+import time
 import aiohttp
 import feedparser
 
@@ -280,6 +282,13 @@ async def run_forever():
                 logger.exception("Error in cycle: %s", e)
             logger.info("Sleeping for %d seconds...", FETCH_INTERVAL)
             await asyncio.sleep(FETCH_INTERVAL)
+def generate_feed():
+    # Your logic here (whatever the main function does)
+    print("Fetching latest threat feed...")
+
+while True:
+    generate_feed()
+    time.sleep(1200)  # 20 minutes
 
 
 if __name__ == "__main__":
