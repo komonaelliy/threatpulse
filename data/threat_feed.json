@@ -1,1 +1,512 @@
-[]
+[
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180492",
+    "title": "Student Loan Breach Exposes 2.5M Records",
+    "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+    "published": "Wed, 31 Aug 2022 12:57:48 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180472",
+    "title": "Twitter Whistleblower Complaint: The TL;DR Version",
+    "description": "Twitter is blasted for security and privacy lapses by the company\u2019s former head of security who alleges the social media giant\u2019s actions amount to a national security risk.",
+    "published": "Wed, 24 Aug 2022 14:17:04 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180490",
+    "title": "Watering Hole Attacks Push ScanBox Keylogger",
+    "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+    "published": "Tue, 30 Aug 2022 16:00:43 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180467",
+    "title": "Firewall Bug Under Active Attack Triggers CISA Warning",
+    "description": "CISA is warning that Palo Alto Networks\u2019 PAN-OS is under active attack and needs to be patched ASAP.",
+    "published": "Tue, 23 Aug 2022 13:19:58 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://peterullrich.com/listen-to-database-changes-through-the-postgres-wal",
+    "title": "Listen to Database Changes Through the Postgres WAL",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45885768\">Comments</a>",
+    "published": "Tue, 11 Nov 2025 10:08:30 +0000",
+    "source": "HackerNews",
+    "link": "https://peterullrich.com/listen-to-database-changes-through-the-postgres-wal",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180478",
+    "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+    "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
+    "published": "Thu, 25 Aug 2022 18:47:15 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180432",
+    "title": "Google Patches Chrome\u2019s Fifth Zero-Day of the Year",
+    "description": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
+    "published": "Thu, 18 Aug 2022 14:31:38 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://landaire.net/a-file-format-uncracked-for-20-years/",
+    "title": "A File Format Uncracked for 20 Years",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45837259\">Comments</a>",
+    "published": "Thu, 06 Nov 2025 16:52:19 +0000",
+    "source": "HackerNews",
+    "link": "https://landaire.net/a-file-format-uncracked-for-20-years/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://www.shoosmiths.com/insights/articles/a-new-chapter-begins-for-ev-batteries-with-the-expiry-of-key-lfp-patents",
+    "title": "A new chapter begins for EV batteries with the expiry of key LFP patents",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45949655\">Comments</a>",
+    "published": "Sun, 16 Nov 2025 23:58:21 +0000",
+    "source": "HackerNews",
+    "link": "https://www.shoosmiths.com/insights/articles/a-new-chapter-begins-for-ev-batteries-with-the-expiry-of-key-lfp-patents",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://picoide.com/",
+    "title": "PicoIDE \u2013 An open IDE/ATAPI drive emulator",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45949352\">Comments</a>",
+    "published": "Sun, 16 Nov 2025 23:19:24 +0000",
+    "source": "HackerNews",
+    "link": "https://picoide.com/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://www.quantamagazine.org/how-your-brain-creates-aha-moments-and-why-they-stick-20251105/",
+    "title": "Neuroscientists track the neural activity underlying an \u201caha\u201d",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45948792\">Comments</a>",
+    "published": "Sun, 16 Nov 2025 21:57:13 +0000",
+    "source": "HackerNews",
+    "link": "https://www.quantamagazine.org/how-your-brain-creates-aha-moments-and-why-they-stick-20251105/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html",
+    "title": "The Pragmatic Programmer: 20th Anniversary Edition (2023)",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45948254\">Comments</a>",
+    "published": "Sun, 16 Nov 2025 20:46:30 +0000",
+    "source": "HackerNews",
+    "link": "https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://www.zigbook.net",
+    "title": "Open-source Zig book",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45947810\">Comments</a>",
+    "published": "Sun, 16 Nov 2025 19:44:27 +0000",
+    "source": "HackerNews",
+    "link": "https://www.zigbook.net",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://david.coffee/cloudflare-zero-trust-tunnels",
+    "title": "I finally understand Cloudflare Zero Trust tunnels",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45946865\">Comments</a>",
+    "published": "Sun, 16 Nov 2025 17:39:43 +0000",
+    "source": "HackerNews",
+    "link": "https://david.coffee/cloudflare-zero-trust-tunnels",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://github.com/p-e-w/heretic",
+    "title": "Heretic: Automatic censorship removal for language models",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45945587\">Comments</a>",
+    "published": "Sun, 16 Nov 2025 15:00:24 +0000",
+    "source": "HackerNews",
+    "link": "https://github.com/p-e-w/heretic",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180487",
+    "title": "Tentacles of \u20180ktapus\u2019 Threat Group Victimize 130 Firms",
+    "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+    "published": "Mon, 29 Aug 2022 14:56:19 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180462",
+    "title": "Fake Reservation Links Prey on Weary Travelers",
+    "description": "Fake travel reservations are exacting more pain from the travel weary, already dealing with the misery of canceled flights and overbooked hotels.",
+    "published": "Mon, 22 Aug 2022 13:59:06 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/reservation-links-prey-on-travelers/180462/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://minivac.greg.technology/",
+    "title": "A 1961 Relay Computer Running in the Browser",
+    "description": "<a href=\"https://news.ycombinator.com/item?id=45950396\">Comments</a>",
+    "published": "Mon, 17 Nov 2025 02:36:18 +0000",
+    "source": "HackerNews",
+    "link": "https://minivac.greg.technology/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from HackerNews.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180481",
+    "title": "Ransomware Attacks are on the Rise",
+    "description": "Lockbit is by far this summer\u2019s most prolific ransomware group, trailed by two offshoots of the Conti group.",
+    "published": "Fri, 26 Aug 2022 16:44:27 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "https://kasperskycontenthub.com/threatpost-global/?p=180448",
+    "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
+    "description": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
+    "published": "Fri, 19 Aug 2022 15:25:56 +0000",
+    "source": "ThreatPost",
+    "link": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from ThreatPost.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1oz3zq7",
+    "title": "what do you guys think of this undocumented behavior of \"web for pentester 1?\"",
+    "description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UnableProperty9526\"> /u/UnableProperty9526 </a> <br /> <span><a href=\"https://medium.com/@zahihalimi/how-i-accidentally-discovered-an-undocumented-vulnerability-in-web-for-pentester-1-aff4bfd608a6\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1oz3zq7/what_do_you_guys_think_of_this_undocumented/\">[comments]</a></span>",
+    "published": "2025-11-17T02:02:49+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1oz3zq7/what_do_you_guys_think_of_this_undocumented/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1oyrn4t",
+    "title": "Trying to make CCNA learning more engaging for students",
+    "description": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>My best friend and I have been working on a project after going through CCNA \u2192 CCNP ENCOR \u2192 CCNP ENARSI together. We realised that for most people (including us), the hardest part of the CCNA journey isn\u2019t the technical content. It\u2019s staying motivated through the long PDFs, the repetitive labs, and the feeling of studying alone.</p> <p>We wanted to take some of that pain away and make learning networking feel more structured, more guided, and more rewarding. So we started building something based on short lessons, clear diagrams, and a gamification system that helps you actually feel your improvement.</p> <p>The idea is to help learners stay consistent, avoid feeling lost, and have a more enjoyable path through the CCNA topics.</p> <p>We\u2019re currently sharing this with CCNA learners and mentors to see if it actually helps, and we\u2019d definitely welcome any feedback or questions :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sorry_Flatworm_521\"> /u/Sorry_Flatworm_521 </a> <br /> <span><a href=\"https://pingmynetwork.com/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1oyrn4t/trying_to_make_ccna_learning_more_engaging_for/\">[comments]</a></span>",
+    "published": "2025-11-16T17:30:21+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1oyrn4t/trying_to_make_ccna_learning_more_engaging_for/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1oyis0z",
+    "title": "Claude AI ran autonomous espionage operations",
+    "description": "<!-- SC_OFF --><div class=\"md\"><p>Anthropic just published a case study where threat actors jailbroke Claude and used it to run entire attack campaigns autonomously. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/YouCanDoIt749\"> /u/YouCanDoIt749 </a> <br /> <span><a href=\"https://www.anthropic.com/news/disrupting-AI-espionage\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1oyis0z/claude_ai_ran_autonomous_espionage_operations/\">[comments]</a></span>",
+    "published": "2025-11-16T10:51:17+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1oyis0z/claude_ai_ran_autonomous_espionage_operations/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1owxxey",
+    "title": "When The Impersonation Function Gets Used To Impersonate Users (Fortinet FortiWeb (??) Auth. Bypass) - watchTowr Labs",
+    "description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dx7r__\"> /u/dx7r__ </a> <br /> <span><a href=\"https://labs.watchtowr.com/when-the-impersonation-function-gets-used-to-impersonate-users-fortinet-fortiweb-auth-bypass/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1owxxey/when_the_impersonation_function_gets_used_to/\">[comments]</a></span>",
+    "published": "2025-11-14T14:27:42+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1owxxey/when_the_impersonation_function_gets_used_to/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1owmope",
+    "title": "Milvus Proxy Authentication Bypass Vulnerability(CVE-2025-64513)",
+    "description": "<!-- SC_OFF --><div class=\"md\"><p>Analysis of the Milvus Proxy Authentication Bypass Vulnerability(CVE-2025-64513)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fit_Wing3352\"> /u/Fit_Wing3352 </a> <br /> <span><a href=\"https://helixguard.ai/blog/CVE-2025-64513\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1owmope/milvus_proxy_authentication_bypass/\">[comments]</a></span>",
+    "published": "2025-11-14T04:13:32+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1owmope/milvus_proxy_authentication_bypass/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1ow9xsv",
+    "title": "Drawbot: Let\u2019s Hack Something Cute! \u2014 Atredis Partners",
+    "description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/juken\"> /u/juken </a> <br /> <span><a href=\"https://www.atredis.com/blog/2025/9/30/drawbot-lets-hack-something-cute\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1ow9xsv/drawbot_lets_hack_something_cute_atredis_partners/\">[comments]</a></span>",
+    "published": "2025-11-13T19:09:04+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1ow9xsv/drawbot_lets_hack_something_cute_atredis_partners/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1oviurc",
+    "title": "Making .NET Serialization Gadgets by Hand",
+    "description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chicksdigthelongrun\"> /u/chicksdigthelongrun </a> <br /> <span><a href=\"https://www.vulncheck.com/blog/making-dotnet-gadgets\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1oviurc/making_net_serialization_gadgets_by_hand/\">[comments]</a></span>",
+    "published": "2025-11-12T21:57:13+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1oviurc/making_net_serialization_gadgets_by_hand/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1ov4lab",
+    "title": "Is It CitrixBleed4? Well, No. Is It Good? Also, No. (Citrix NetScaler Memory Leak & RXSS CVE-2025-12101) - watchTowr Labs",
+    "description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dx7r__\"> /u/dx7r__ </a> <br /> <span><a href=\"https://labs.watchtowr.com/is-it-citrixbleed4-well-no-is-it-good-also-no-citrix-netscalers-memory-leak-rxss-cve-2025-12101/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1ov4lab/is_it_citrixbleed4_well_no_is_it_good_also_no/\">[comments]</a></span>",
+    "published": "2025-11-12T13:04:34+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1ov4lab/is_it_citrixbleed4_well_no_is_it_good_also_no/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1omlc64",
+    "title": "/r/netsec's Q4 2025 Information Security Hiring Thread",
+    "description": "<!-- SC_OFF --><div class=\"md\"><p><strong>Overview</strong></p> <p>If you have open positions at your company for information security professionals and would like to hire from the <a href=\"/r/netsec\">/r/netsec</a> user base, please leave a comment detailing any open job listings at your company.</p> <p>We would also like to encourage you to post internship positions as well. Many of our readers are currently in school or are just finishing their education.</p> <p>Please reserve top level comments for those posting open positions.</p> <p><strong>Rules &amp; Guidelines</strong></p> <p>Include the company name in the post. If you want to be topsykret, go recruit elsewhere. Include the geographic location of the position along with the availability of relocation assistance or remote work.</p> <ul> <li>If you are a third party recruiter, you must disclose this in your posting.</li> <li>Please be thorough and upfront with the position details.</li> <li>Use of non-hr'd (realistic) requirements is encouraged.</li> <li>While it's fine to link to the position on your companies website, provide the important details in the comment.</li> <li>Mention if applicants should apply officially through HR, or directly through you.</li> <li>Please clearly list citizenship, visa, and security clearance requirements.</li> </ul> <p>You can see an example of acceptable posts by <a href=\"https://www.reddit.com/r/netsec/search?q=Information+Security+Hiring+Thread&amp;sort=new&amp;restrict_sr=on\">perusing past hiring threads</a>.</p> <p><strong>Feedback</strong></p> <p>Feedback and suggestions are welcome, but please don't hijack this thread (use moderator mail instead.)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/netsec_burn\"> /u/netsec_burn </a> <br /> <span><a href=\"https://www.reddit.com/r/netsec/comments/1omlc64/rnetsecs_q4_2025_information_security_hiring/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1omlc64/rnetsecs_q4_2025_information_security_hiring/\">[comments]</a></span>",
+    "published": "2025-11-02T16:12:00+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1omlc64/rnetsecs_q4_2025_information_security_hiring/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  },
+  {
+    "id": "t3_1olp81v",
+    "title": "r/netsec monthly discussion & tool thread",
+    "description": "<!-- SC_OFF --><div class=\"md\"><p>Questions regarding netsec and discussion related directly to netsec are welcome here, as is sharing tool links.</p> <h1>Rules &amp; Guidelines</h1> <ul> <li>Always maintain civil discourse. Be awesome to one another - moderator intervention will occur if necessary.</li> <li>Avoid NSFW content unless absolutely necessary. If used, mark it as being NSFW. If left unmarked, the comment will be removed entirely.</li> <li>If linking to classified content, mark it as such. If left unmarked, the comment will be removed entirely.</li> <li>Avoid use of memes. If you have something to say, say it with real words.</li> <li>All discussions and questions should directly relate to netsec.</li> <li>No tech support is to be requested or provided on <a href=\"/r/netsec\">r/netsec</a>.</li> </ul> <p>As always, the content &amp; discussion guidelines should also be observed on <a href=\"/r/netsec\">r/netsec</a>.</p> <h1>Feedback</h1> <p>Feedback and suggestions are welcome, but don't post it here. Please send it to the moderator inbox.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/albinowax\"> /u/albinowax </a> <br /> <span><a href=\"https://www.reddit.com/r/netsec/comments/1olp81v/rnetsec_monthly_discussion_tool_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1olp81v/rnetsec_monthly_discussion_tool_thread/\">[comments]</a></span>",
+    "published": "2025-11-01T14:29:03+00:00",
+    "source": "Reddit r/netsec",
+    "link": "https://www.reddit.com/r/netsec/comments/1olp81v/rnetsec_monthly_discussion_tool_thread/",
+    "verified": true,
+    "ai_verified": true,
+    "ai_analysis": {
+      "is_legitimate": true,
+      "confidence": 75,
+      "severity": "HIGH",
+      "analysis": "Community-reported from Reddit r/netsec.",
+      "recommendation": "Monitor for vendor confirmation."
+    }
+  }
+]
