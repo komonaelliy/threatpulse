@@ -2,34 +2,50 @@ name: Update Threat Feed
 
 on:
   schedule:
-    - cron: '*/20 * * * *' # every 20 minutes
+    - cron: '*/20 * * * *'   # every 20 minutes
   workflow_dispatch:
 
 jobs:
-  update-feed:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: '3.12'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pip install aiohttp feedparser
 
-      - name: Run ThreatPulse
-        run: python src/threatpulse.py
-
-      - name: Commit and push feed
+      - name: Run ONE cycle only (no infinite loop)
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          python - <<'PY'
+          import asyncio, aiohttp
+          from src.threatpulse import run_cycle
+
+          async def main():
+              async with aiohttp.ClientSession(
+                  timeout=aiohttp.ClientTimeout(total=60),
+                  headers={"User-Agent": "ThreatPulse/1.0"}
+              ) as session:
+                  await run_cycle(session)
+
+          asyncio.run(main())
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/threat_feed.json
-          git commit -m "Auto-update threat feed" || echo "No changes to commit"
-          git push
-
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Auto-update feed $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -2,8 +2,6 @@
 __pycache__/
 *.pyc
 
-# Data
-data/*.json
 
 # Virtual env
 venv/
